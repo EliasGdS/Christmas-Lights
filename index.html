@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luzes de Natal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="utilities">
+        <h1 id="title">Luzes de Natal</h1>
+        <button id="on_btn" class="btn" onclick="on()" >Liga</button>
+        <button id="off_btn" class="btn" onclick="off()">Desliga</button>
+        <div class="sliderWrapper">
+            <p>Qtd. de Linhas (und)</p>
+            <input type="range" id="lampQtd" class="mySlider" value="1" min="1" max="7">
+            <input type="text" id="txtLampQtd" readonly>
+        </div>
+        
+        <div class="sliderWrapper">
+            <p>Tamanho (px)</p>
+            <input type="range" id="lampLenght" class="mySlider" value = "50" min="1" max="50">
+            <input type="text" id="txtLampLenght" readonly>
+        </div>
+        <div class="sliderWrapper">
+            <p>Intensidade</p>
+            <input type="range" id="lampIntensity" class="mySlider" value = '20' min="1" max="50">
+            <input type="text" id="txtLampIntensity" readonly>
+        </div>
+    </div>
+
+    <div class="lights">
+        <div class="row" id="row1">
+            <input type="color" id="l1" class="lamp" anima>
+            <input type="color" id="l2" class="lamp">
+            <input type="color" id="l3" class="lamp">
+            <input type="color" id="l4" class="lamp">
+            <input type="color" id="l5" class="lamp">
+            <input type="color" id="l6" class="lamp">
+            <input type="color" id="l7" class="lamp">
+        </div>
+
+        <div class="row" id="row2">
+            <input type="color" id="l8" class="lamp">
+            <input type="color" id="l9" class="lamp">
+            <input type="color" id="l10" class="lamp">
+            <input type="color" id="l11" class="lamp">
+            <input type="color" id="l12" class="lamp">
+            <input type="color" id="l13" class="lamp">
+            <input type="color" id="l14" class="lamp">
+        </div>
+
+        <div class="row" id="row3">
+            <input type="color" id="l15" class="lamp">
+            <input type="color" id="l16" class="lamp">
+            <input type="color" id="l17" class="lamp">
+            <input type="color" id="l18" class="lamp">
+            <input type="color" id="l19" class="lamp">
+            <input type="color" id="l20" class="lamp">
+            <input type="color" id="l21" class="lamp">
+        </div>
+
+        <div class="row" id="row4">
+            <input type="color" id="l22" class="lamp">
+            <input type="color" id="l23" class="lamp">
+            <input type="color" id="l24" class="lamp">
+            <input type="color" id="l25" class="lamp">
+            <input type="color" id="l26" class="lamp">
+            <input type="color" id="l27" class="lamp">
+            <input type="color" id="l28" class="lamp">
+        </div>
+
+        <div class="row" id="row5">
+            <input type="color" id="l29" class="lamp">
+            <input type="color" id="l30" class="lamp">
+            <input type="color" id="l31" class="lamp">
+            <input type="color" id="l32" class="lamp">
+            <input type="color" id="l33" class="lamp">
+            <input type="color" id="l34" class="lamp">
+            <input type="color" id="l35" class="lamp">
+        </div>
+
+        <div class="row" id="row6">
+            <input type="color" id="l36" class="lamp">
+            <input type="color" id="l37" class="lamp">
+            <input type="color" id="l38" class="lamp">
+            <input type="color" id="l39" class="lamp">
+            <input type="color" id="l40" class="lamp">
+            <input type="color" id="l41" class="lamp">
+            <input type="color" id="l42" class="lamp">
+        </div>
+
+        <div class="row" id="row7">
+            <input type="color" id="l43" class="lamp">
+            <input type="color" id="l44" class="lamp">
+            <input type="color" id="l45" class="lamp">
+            <input type="color" id="l46" class="lamp">
+            <input type="color" id="l47" class="lamp">
+            <input type="color" id="l48" class="lamp">
+            <input type="color" id="l49" class="lamp">
+        </div>
+    </div>
+
+    <script lang="javascript" src="main.js"></script>
+</body>
+
+</html>
