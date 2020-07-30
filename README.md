@@ -1,10 +1,16 @@
 # Christmas Lights
 
-Simulate a string of Christmas lights
+Simulate a string of Christmas lights.
 
-CodePen: 
+Done in HTML5, CSS3 and Javascript.
+
+CodePen: https://codepen.io/eliasgds/pen/rNxEmYR
 
 ## Preview
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/67754744/88869863-4ba6da80-d1ea-11ea-8477-197fafa1d1b3.gif">
+</p>
 
 ## Features
 
