@@ -1,23 +1,19 @@
-# Luzes de Natal
+# Christmas Lights
 
-**Nível: 1** - Iniciante
+Simulate a string of Christmas lights
 
-O aplicativo ChristmasLights depende dos seus talentos de desenvolvimento para criar uma exibição de luz fascinante. Sua tarefa é desenhar sete círculos coloridos em uma linha e, com base em um temporizador, alterar a intensidade de cada círculo. Quando um círculo é iluminado, o predecessor retorna à sua intensidade normal.
+CodePen: 
 
-Isso simula o efeito de uma série de luzes ondulantes, semelhantes às exibidas durante as férias de Natal.
+## Preview
 
-## Exigências dos Usuários
+## Features
 
-- [x] O usuário pode pressionar um botão para iniciar e parar a exibição
-- [x]  O usuário pode alterar o intervalo de tempo controlando a alteração na intensidade
+- [x] User can press a button to start and stop the display.
+- [x] User can change the interval of time controlling the change in intensity.
 
-## Recursos Bônus
+## Bonus features
 
-- [x]  usuário pode selecionar a cor usada para preencher cada círculo
-- [x] O usuário pode especificar o valor da intensidade
-- [x] O usuário pode alterar o tamanho de qualquer círculo na linha
-- [x]  usuário pode especificar o número de linhas a serem incluídas na exibição. De uma a sete linhas podem ser escolhidas
-
-## Link da lista de desafios 'app ideas'
-
-https://github.com/florinpop17/app-ideas
+- [x] User can select the color used to fill each circle.
+- [x] User can specify the intensity value.
+- [x] User can change the size of any circle in the row.
+- [x] User can specify the number of rows to be included in the display. From one to seven rows can be chosen.
